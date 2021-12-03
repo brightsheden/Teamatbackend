@@ -107,3 +107,8 @@ class NewsLetterSerializer(serializers.ModelSerializer):
     class Meta:
         model = NewsLetter
         fields = "__all__"
+
+class ShippingAddressSerializer(serializers.ModelSerializer):
+    class Meta :
+        model = ShippingAddress
+        fields = '__all__'
