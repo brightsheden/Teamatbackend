@@ -28,7 +28,8 @@ SECRET_KEY = os.environ.get("MILESTONE_DJANGO_SECRETE_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [" http://127.0.0.1", "localhost", "http://teamattech.herokuapp.com" ]
+#ALLOWED_HOSTS = [" http://127.0.0.1", "localhost", "https://teamattech.herokuapp.com" ]
+ALLOWED_HOSTS = ["*" ]
 
 
 # Application definition
