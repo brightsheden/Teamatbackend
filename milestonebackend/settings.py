@@ -105,7 +105,7 @@ MIDDLEWARE = [
    # "http://localhost:3000",
     
 #]
-CORS_ALLOW_ALL_ORIGINS: True
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 ROOT_URLCONF = 'milestonebackend.urls'
